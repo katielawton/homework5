@@ -245,7 +245,6 @@ header{
 /*Add media query to handle reduced-motion*/
 @media screen and (prefers-reduce-motion: reduce) {
   #logo {
-    -webkit-animation: none;
-            animation: none;
+    animation: none;
   }
 }
